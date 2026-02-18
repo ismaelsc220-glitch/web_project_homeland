@@ -1,0 +1,40 @@
+.content__title{
+font-family: "InterVariable", sans-serif;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+
+}
+.content__title-accent{
+    display: block;
+}
+.content__subtitle{
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 3.0rem;
+line-height: 1;
+text-align: center;
+margin:auto;
+color: #fff;
+@media (max-with:768) {
+    
+}
+}
+
+.content__subtitle-acccent{
+    display: block;
+}
+.content__img{
+margin: auto;
+width: 90%;
+height: 61vh;
+
+}
+.content__titletwo{
+
+}
+.elemento {
+    
+}
