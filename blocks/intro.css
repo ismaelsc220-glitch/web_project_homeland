@@ -1,11 +1,75 @@
 .intro{
-
+max-width: 830px;
+min-height: 60vh;
+margin: auto;
+padding: 2rem 1rem;
 }
 .intro__titletwo{
 font-family: "InterVariable", sans-serif;
 font-weight: 900;
-font-size: 96px;
-line-height: 100px;
-text-align: center;
+font-size: 3rem;
+line-height: 2.6rem;
+text-align:left;
 color:#fff;
+display: block;
+
+}
+@media(max-width: 800px) {
+    .intro__titletwo{
+        font-size: 2rem;
+    }
+}
+@media(max-width:544px) {
+.intro__titletwo{
+    font-size: 1.6rem;
+
+}    
+}
+.intro__text{
+    font-family: "Inter";
+font-weight: 400;
+font-size: 2.4rem;
+line-height: 3.2rem;
+color: #fff;
+
+}
+@media (max-width:800px) {
+    .intro__text{
+        font-size: 2rem ;
+    }
+    
+}
+@media (max-width:544px) {
+    .intro__text{
+        font-size: 1.7rem ;
+    }
+    
+}
+.intro__footer{
+   font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 2.4rem;
+line-height: 3.4rem;
+text-align: right;
+color: #fff;
+}
+@media (width:800px) {
+    .intro__footer{
+        font-size: 1.9rem;
+    }
+}
+@media (max-width:544px) {
+    .intro__footer{
+        font-size: 1.5rem;
+    }
+    
+}
+.intro__texttwo{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+
+line-height: 163%;
+letter-spacing: 0%;
+color: #fff;
 }
