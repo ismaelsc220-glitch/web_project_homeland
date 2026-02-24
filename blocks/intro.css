@@ -1,74 +1,97 @@
 .intro{
 max-width: 830px;
-min-height: 60vh;
-margin: auto;
-padding: 2rem 1rem;
+min-height: 607px;
+margin-top:  92px ;
+margin-left: 148px;
 }
-.intro__titletwo{
-font-family: "InterVariable", sans-serif;
+@media (max-width: 850px) {
+    .intro{
+        margin-top: 90px;
+        margin-left: 24px;
+    }
+}
+@media (max-width:544px) {
+    .intro{
+        margin-top: 64px;
+        margin-left: 16px ;
+    }
+}
+.intro__title{
+font-family: "Inter", sans-serif;
 font-weight: 900;
-font-size: 3rem;
-line-height: 2.6rem;
+font-size: 54px;
+line-height: 58px;
 text-align:left;
 color:#fff;
 display: block;
+margin-bottom: 40px;
 
 }
 @media(max-width: 800px) {
-    .intro__titletwo{
-        font-size: 2rem;
+    .intro__title{
+        font-size: 45px;
+        line-height: 49px;
+        margin-bottom: 50px;
     }
 }
 @media(max-width:544px) {
-.intro__titletwo{
-    font-size: 1.6rem;
+.intro__title{
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 40px;
 
 }    
 }
 .intro__text{
     font-family: "Inter";
 font-weight: 400;
-font-size: 2.4rem;
-line-height: 3.2rem;
+font-size: 24px;
+line-height: 34px;
 color: #fff;
+margin-bottom: 10px;
 
 }
 @media (max-width:800px) {
     .intro__text{
-        font-size: 2rem ;
+        font-size: 24px ;
+        line-height: 34px;
+
     }
     
 }
 @media (max-width:544px) {
     .intro__text{
-        font-size: 1.7rem ;
+        font-size: 24px ;
+        line-height: 30px;
     }
     
 }
 .intro__footer{
    font-family: "Inter", sans-serif;
 font-weight: 400;
-font-size: 2.4rem;
-line-height: 3.4rem;
+font-size: 24px;
+line-height: 34px;
 text-align: right;
 color: #fff;
+margin-bottom: 32px;
 }
 @media (width:800px) {
     .intro__footer{
-        font-size: 1.9rem;
+        font-size: 24px;
+        line-height: 24px;
     }
 }
 @media (max-width:544px) {
     .intro__footer{
-        font-size: 1.5rem;
+        font-size: 24px;
+        line-height: 34px;
     }
     
 }
 .intro__texttwo{
-    font-family: Inter;
+font-family: "Inter", sans-serif;
 font-weight: 400;
 font-size: 16px;
-
 line-height: 163%;
 letter-spacing: 0%;
 color: #fff;
