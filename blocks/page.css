@@ -1,14 +1,21 @@
-html{
+*{
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
     font-size: 62.5%;
+    height: 100%;
 }
 .page{
     background: rgba(42, 44, 47, 1);
     margin: 0;
     font-family: "Inter";
-    max-width: 100vh;
+    max-width: 100%;
     min-width: 320px;
     box-sizing: border-box;
     padding: 0;
 }
+
 
 
