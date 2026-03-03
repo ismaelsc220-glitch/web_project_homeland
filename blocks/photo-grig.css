@@ -1,0 +1,32 @@
+.photo-grid{
+margin-top: 118px;
+margin-left: 43px;
+display: grid;
+grid-template-columns: repeat(4, auto);
+gap: 16px;
+
+}
+.grid__item{
+
+}
+.grid__item_1{
+
+}
+.grid__item_2{
+
+}
+.grid__item_3{
+
+}
+.grid__item_4{
+
+}
+.grid__item_5{
+
+}
+.grid__item_6{
+
+}
+.grid__item_7{
+
+}
