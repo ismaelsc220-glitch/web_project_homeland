@@ -11,8 +11,8 @@ html, body{
     background: rgba(42, 44, 47, 1);
     margin: 0;
     font-family: "Inter";
-    max-width: 100%;
-    min-width: 300px;
+    max-width: 1290px;
+    min-width: 320px;
     box-sizing: border-box;
     padding: 0;
 }
