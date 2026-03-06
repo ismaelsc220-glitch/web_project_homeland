@@ -1,2 +1,4 @@
 .DS_Store
 .texts.md
+node_modules/
+.node_modules/
